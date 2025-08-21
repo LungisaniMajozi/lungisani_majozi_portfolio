@@ -1,6 +1,7 @@
 import React from "react";
 import Majozi from "../assets/Majozi.png";
 import { HiArrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div name="home" className=" w-full h-screen bg-[#0a192f]">
@@ -29,7 +30,9 @@ const Home = () => {
         </p>
 
         <button className="text-white justify-center group border-2 px-6 py-3 my-2 flex items-center hover:bg-purple-600 hover:border-blue-600 ">
-          View Work
+          <Link to="work" smooth={true} duration={500}>
+            View Work
+          </Link>
           <span className="group-hover:rotate-90 duration-300">
             <HiArrowRight className="ml-3 " />
           </span>
