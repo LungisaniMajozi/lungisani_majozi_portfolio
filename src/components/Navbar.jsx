@@ -93,9 +93,9 @@ const Navbar = () => {
       </ul>
 
       {/*Social icons*/}
-      <div className="hidden md:flex fixed flex-col top-[35%] left-0">
+      <div className="flex md:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className=" w-[160px] h-[60px flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#1d5ec7]">
+          <li className=" w-[160px] h-[60px flex justify-between items-center ml-[-145px] sm:ml-[-110px]  hover:ml-[-10px] duration-300 bg-[#1d5ec7]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/lungisani-majozi-197320252/"
@@ -105,7 +105,7 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li className=" w-[160px] h-[60px flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#387563]">
+          <li className=" w-[160px] h-[60px flex justify-between items-center ml-[-145px] sm:ml-[-110px] hover:ml-[-10px] duration-300 bg-[#387563]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://wa.me/27664067013
@@ -116,7 +116,7 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li className=" w-[160px] h-[60px flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-black">
+          <li className=" w-[160px] h-[60px flex justify-between items-center ml-[-145px] sm:ml-[-110px] hover:ml-[-10px] duration-300 bg-black">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/LungisaniMajozi"
@@ -126,7 +126,7 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li className=" w-[160px] h-[60px flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#7b0d0d]">
+          <li className=" w-[160px] h-[60px flex justify-between items-center ml-[-145px] sm:ml-[-110px] hover:ml-[-10px] duration-300 bg-[#7b0d0d]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:lungisaniimajozi@gmail.com"
