@@ -58,33 +58,33 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center border-4 border-w- border-purple-600 rounded-lg"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl border-b-2 border-purple-600 ">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl border-b-2 border-purple-600">
           {" "}
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl border-b-2 border-purple-600">
           {" "}
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl border-b-2 border-purple-600">
           {" "}
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl border-b-2 border-purple-600">
           {" "}
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
