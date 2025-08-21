@@ -1,6 +1,6 @@
 import React from "react";
-import Vid from "../assets/VID.png";
-import MYP from "../assets/MYP.png";
+import Vid from "../assets/GMG.png";
+import MYP from "../assets/WGM.png";
 import Myf from "../assets/MYF.png";
 const Work = () => {
   return (
@@ -24,16 +24,16 @@ const Work = () => {
           >
             <div className="opacity-0 group-hover:opacity-60 duration-1000">
               <span className="text-2xl font-bold text-white tracking-wider  justify-center text-justify">
-                Visual ID Application
+                HtML CCS JS Number Game
               </span>
               <div className="pt-8 text-center">
-                <a href="https://lungisani-majozii-repo2.vercel.app/">
+                <a href="https://lungisanimajozi.github.io/number-guessing-game/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
 
-                <a href="https://github.com/LungisaniMajozi/lungisani_majozii_repo2.git">
+                <a href="https://github.com/LungisaniMajozi/number-guessing-game.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white  text-gray-700 font-bold text-lg">
                     code
                   </button>
@@ -74,16 +74,16 @@ const Work = () => {
           >
             <div className="opacity-0 group-hover:opacity-100 duration-1000">
               <span className="text-2xl font-bold text-white tracking-wider  justify-center text-justify">
-                My Portfolio App
+                HTML Words Game App
               </span>
               <div className="pt-8 text-center">
-                <a href="">
+                <a href="https://worrdgamebymajozi.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
 
-                <a href="">
+                <a href="https://github.com/LungisaniMajozi/word-guessing-game.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white  text-gray-700 font-bold text-lg">
                     code
                   </button>
