@@ -52,13 +52,13 @@ const Work = () => {
                 My First React App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://my-first-react-app-henna.vercel.app/">
+                <a href="https://better-car-deals-xhfy-git-main-lungisanimajozis-projects.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
 
-                <a href="https://github.com/LungisaniMajozi/my_first_react_app.git">
+                <a href="https://github.com/LungisaniMajozi/better_car_deals.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white  text-gray-700 font-bold text-lg">
                     code
                   </button>
