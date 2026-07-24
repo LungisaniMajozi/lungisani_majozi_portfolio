@@ -5,10 +5,8 @@ import {
   FaGithub,
   FaLinkedin,
   FaWhatsapp,
-  FaFacebook,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/Logo.png";
 import { Link } from "react-scroll";
 const Navbar = () => {
