@@ -47,7 +47,7 @@ const projects = [
   {
     id: "naeve-construction",
     name: "Naeve Construction",
-    demo: "https://naeve-construction-company-and-tile.vercel.app/",
+    demo: "https://ncc-tiles-eqac.vercel.app/",
     code: "https://github.com/LungisaniMajozi/naeve-construction-company-and-tiles-supplier",
     image: imgNaeveConstruction
   },
